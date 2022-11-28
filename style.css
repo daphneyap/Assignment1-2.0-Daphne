@@ -1,0 +1,176 @@
+.navigation {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+.navigation a {
+    float: right;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a:hover {
+    background-color: #2d2d30;
+    color:#f1f1f1;
+}
+
+.naviagtion a:active {
+    background-color: #2d2d30;
+    color: #f1f1f197;
+}
+
+.navigation a.split {
+    float: left;
+    color: #bdbdbd;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.carousel {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.bandpics {
+    display: none;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    width: 100%;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.about {
+    padding: 80px 120px;
+    text-align: center;
+}
+
+.members {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+}
+  
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+  
+button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+.video {
+    padding: 80px 120px;
+    text-align: center;
+}
+
+.videos1 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.video1 {
+    width: calc(33.33333% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.music {
+    padding: 80px 120px;
+    text-align: center;
+}
+
+.albums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.albums img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
