@@ -1,3 +1,18 @@
+.body1 {
+    background-color: #2d2d30;
+    opacity: 0.9;
+}
+
+.body2 {
+    background-color: #2d2d30;
+    opacity: 0.9;
+}
+
+.body3 {
+    background-color: #2d2d30;
+    opacity: 0.9;
+}
+
 .navigation {
     background-color: #2d2d30;
     opacity: 0.9;
@@ -10,7 +25,10 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    font-size: 13px !important;
+    letter-spacing: 4px;
 }
 
 .navigation a:hover {
@@ -26,6 +44,32 @@
 .navigation a.split {
     float: left;
     color: #bdbdbd;
+}
+
+.navigation .icon {
+    display: none;
+  }
+
+@media screen and (max-width: 600px) {
+    .navigation a:not(:first-child) {display: none;}
+    .navigation a.icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .navigation.responsive {position: relative;}
+    .navigation.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navigation.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
 }
 
 * {box-sizing:border-box}
@@ -101,11 +145,19 @@
 }
 
 .about {
+    font: 400 15px/1.8 Lato, sans-serif;
     padding: 80px 120px;
     text-align: center;
 }
 
+h1 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;      
+    font-size: 20px;
+}
+
 .members {
+    font: 400 15px/1.8 Lato, sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
@@ -113,45 +165,33 @@
 }
   
 .title {
+    font: 400 15px/1.8 Lato, sans-serif;
     color: grey;
     font-size: 18px;
 }
-  
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-  
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-}
-  
-button:hover, a:hover {
-    opacity: 0.7;
-  }
 
 .video {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    color: #f1f1f1;
+    font: 400 15px/1.8 Lato, sans-serif;
     padding: 80px 120px;
     text-align: center;
 }
 
 .videos1 {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    font: 400 15px/1.8 Lato, sans-serif;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 }
 
 .video1 {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    font: 400 15px/1.8 Lato, sans-serif;
     width: calc(33.33333% - 10px);
     display: flex;
     flex-direction: column;
@@ -160,6 +200,7 @@ button:hover, a:hover {
 }
 
 .music {
+    font: 400 15px/1.8 Lato, sans-serif;
     padding: 80px 120px;
     text-align: center;
 }
@@ -173,4 +214,66 @@ button:hover, a:hover {
 .albums img {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.superband {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    color: #f1f1f1;
+    font: 400 15px/1.8 Lato, sans-serif;
+    padding: 80px 120px;
+    text-align: center;
+}
+
+.episodes {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    font: 400 15px/1.8 Lato, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video2 {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    font: 400 15px/1.8 Lato, sans-serif;
+    margin-right: 10%;
+    align-self: normal;
+}
+  
+.description {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    width: 560px;
+    align-self: normal;
+}
+
+.spacing {
+    background-color: #2d2d30;
+    opacity: 0.9;
+}
+
+.episodes2 {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    font: 400 15px/1.8 Lato, sans-serif;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.video3 {
+    background-color: #2d2d30;
+    opacity: 0.9;
+    font: 400 15px/1.8 Lato, sans-serif;
+    width: calc(33.33333% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
