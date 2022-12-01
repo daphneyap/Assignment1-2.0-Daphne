@@ -14,24 +14,24 @@
 <p> Since newer fans may not know much about the band, but they are very interested and eager to know more, I feel that my website will be able to help them achieve that as the content is catered towards newer fans, and provides sufficient amount of information for them to know more about the band.
 </p>
   
-<p> For my wireframe, the XD file is loacted inside my Assignment 1 file.
+<p> For my wireframe, the XD file is located inside my Assignment 1 file.
 </p>
 
 <h2> Features </h2>
 
-<p> Home Page: The page that includes the navigaion bar and a carousel of pictures of the band.
+<p> Home Page: The page that includes the navigation bar and a carousel of pictures of the band.
 </p>
 
-<p> Band Page: The page which shows a sumary of the band, and the perosonal information of the members.
+<p> Band Page: The page which shows a summary of the band, and the personal information of the members.
 </p>
 
-<p> Vidoe Page: The page which contains the videos of the band's music and performances.
+<p> Video Page: The page which contains the videos of the band's music and performances.
 </p>
 
 <p> Music Page: The page which showcases the band's discography.
 </p>
 
-<p> The Coming One: Superband Page: The page which contains all the episodes of the show (The show which Air League was formed on).
+<p> The Coming One, Superband Page: The page which contains all the episodes of the show (The show which Air League was formed on).
 </p>
 
 <h2> Technologies Used </h2>
@@ -59,14 +59,18 @@
 <h3> Content </h3>
 
 <ul>
-<li> The members information was copied from MyDramaList. </li>
+<li> The members information was copied from the website MyDramaList. </li>
 </ul>
 
 <h3> Media </h3>
 
 <ul>
-<li> The photos used were obtained from Pinterest and Weibo. </li>
-<li> The videos used were obtained from YouTube. </li>
+<li> The photos used were obtained from Pinterest and the band's official Weibo account. </li>
+<li> The videos used were obtained from the YouTube channel 胡宇桐海外粉丝应援站 Hu Yutong Overseas Fan Club. </li>
 </ul>
 
 <h3> Acknowledgements </h3>
+
+<ul>
+<li> I received inspiration for this project from the website W3schools.
+</ul>
