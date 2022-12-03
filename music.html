@@ -16,10 +16,12 @@
 
 <body>
 
-    <header> 
+    <header>
+
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- navigation bar -->
-        <div class = "navigation">
+        <div class = "navigation" id = "topnav">
             <a href = "superband.html"> THE COMING ONE: SUPERBAND </a>
 
             <!-- signifying that the user is on the music page -->
@@ -28,7 +30,28 @@
             <a href = "band.html"> BAND </a>
             <a href = "index.html"> HOME </a>
             <a href = "#airleague" class = "split"> #AIRLEAGUE </a>
+
+            <!-- show the icon in mobile screen view -->
+            <a href = "javascript:void(0);" class = "icon" onclick = "myFunction()">
+                <i class = "fa fa-bars"></i>
+            </a>
+
         </div>
+
+        <script>
+        
+            function myFunction() {
+                var x = document.getElementById("topnav");
+
+                if (x.className === "navigation") {
+                x.className += " responsive";} 
+                
+                else {
+                x.className = "navigation";
+                }
+            }
+
+        </script>
 
     </header>
 
