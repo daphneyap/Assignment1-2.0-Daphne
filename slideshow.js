@@ -3,7 +3,7 @@ showSlides();
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("carousel");
+  let slides = document.getElementsByClassName("bandpics");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }

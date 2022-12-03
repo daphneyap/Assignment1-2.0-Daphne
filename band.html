@@ -18,10 +18,12 @@
 
 <body1>
 
-    <header> 
+    <header>
+
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- navigation bar -->
-        <div class = "navigation">
+        <div class = "navigation" id = "topnav">
             <a href = "superband.html"> THE COMING ONE: SUPERBAND </a>
             <a href = "music.html"> MUSIC </a>
             <a href = "video.html"> VIDEO </a>
@@ -30,7 +32,28 @@
             <a class = "active" href = "band.html"> BAND </a>
             <a href = "index.html"> HOME </a>
             <a href = "#airleague" class = "split"> #AIRLEAGUE </a>
+
+            <!-- show the icon in mobile screen view -->
+            <a href = "javascript:void(0);" class = "icon" onclick = "myFunction()">
+                <i class = "fa fa-bars"></i>
+            </a>
+
         </div>
+
+        <script>
+        
+            function myFunction() {
+                var x = document.getElementById("topnav");
+
+                if (x.className === "navigation") {
+                x.className += " responsive";} 
+                
+                else {
+                x.className = "navigation";
+                }
+            }
+
+        </script>
 
     </header>
 
@@ -45,7 +68,8 @@
             <br>
             <br>
 
-            <p> Air League Band is a Chinese-Pop Band based in Mainland China. The band is formed through the survival show "The Coming One: Superband", also known as Season 4 of the "Coming One" survival series. It comprises of 5 members named Hu Yutong, Ma Zhe, Zhao Ke, Tian Hongjie, and Li Runqi. Together, they form Air League Band. </p>
+            <p> Air League Band is a Chinese-Pop Band based in Mainland China. The band is formed through the survival show "The Coming One: Superband", also known as Season 4 of the "Coming One" survival series.
+                It comprises of 5 members named Hu Yutong, Ma Zhe, Zhao Ke, Tian Hongjie, and Li Runqi. Together, they form Air League Band to pursue their dream. </p>
   
             <br>
             <br>
