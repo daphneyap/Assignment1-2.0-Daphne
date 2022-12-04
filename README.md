@@ -14,7 +14,7 @@
 <p> Since newer fans may not know much about the band, but they are very interested and eager to know more, I feel that my website will be able to help them achieve that as the content is catered towards newer fans, and provides sufficient amount of information for them to know more about the band.
 </p>
   
-<p> For my wireframe, the XD file is located inside my Assignment 1 file.
+<p> For my wireframes and planning, the files will be submitted under Assignment 1 in Brightspace.
 </p>
 
 <h2> Features </h2>
