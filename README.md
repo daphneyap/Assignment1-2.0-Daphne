@@ -37,6 +37,9 @@
 <h2> Technologies Used </h2>
 
 <ul>
+<li> Adobe XD </li>
+<p> To create the wireframe of the website. </p>
+
 <li> HTML </li>
 <p> To code out the structure for the website. </p>
 
@@ -53,6 +56,12 @@
 </ul>
   
 <h2> Testing </h2>
+
+<p> My project will look best on a desktop screen. The content of my website will be evenly spaced out on the desktop screen and users will be able to navigate around the website much easier. On a mobile screen, the content of my website will be compressed into a smaller screen size. Hence, the content of my website might be a bit more cramped on a mobile screen size, while keeping the aesthetics of it.
+</p>
+
+<p> I would not call this problem interesting but I would say that trying to code out the website to fit a smaller screen size was a bit of a struggle. I found it a bit hard as I had to go back to my code and actually fully understand what it does so that I know how to code out for a responsive screen size. One example would be the Video, Music, and Superband page. As these pages are filled with pictures and videos, I had to find a way on how to display the pictures and videos in a vertical way on a smaller screen size, and not having them overlapping each other. On top of displaying the pictures and videos vertically, I also had to make the texts fit into the smaller screen size, while its still readable and corresponding to their respective pictures or videos.
+</p>
 
 <h2> Credits </h2>
 
